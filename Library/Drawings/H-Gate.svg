@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   sodipodi:docname="H-Gate.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75187991"
+     inkscape:cx="210.13994"
+     inkscape:cy="503.40486"
+     inkscape:window-width="1848"
+     inkscape:window-height="1023"
+     inkscape:window-x="72"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter19875"
+       x="-0.016999982"
+       y="-0.017582838"
+       width="1.034"
+       height="1.0351657">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.57909589"
+         id="feGaussianBlur19877" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g21979"
+       transform="matrix(0.16570359,0,0,0.16570359,50.178846,148.44645)">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.921px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std Italic';opacity:0.414292;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.82302;filter:url(#filter19875)"
+         x="63.395035"
+         y="167.52019"
+         id="text3399-2"
+         transform="matrix(0.95213711,0,0,1.0502689,-1.0583333,0.52916667)"><tspan
+           sodipodi:role="line"
+           id="tspan3397-6"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std Italic';fill:#000000;stroke-width:2.82302"
+           x="63.395035"
+           y="167.52019">H</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.921px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.82302"
+         x="60.119667"
+         y="166.76286"
+         id="text3399"
+         transform="scale(0.95213711,1.0502689)"><tspan
+           sodipodi:role="line"
+           id="tspan3397"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std Italic';stroke-width:2.82302"
+           x="60.119667"
+           y="166.76286">H</tspan></text>
+    </g>
+  </g>
+</svg>
