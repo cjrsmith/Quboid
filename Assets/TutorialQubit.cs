@@ -133,7 +133,10 @@ public class TutorialQubit : Bit
             {
                 sceneCamera.transform.GetComponent<Tutorial>().endScene();
                 //Activate continuecanvas
-                sceneCamera.transform.GetComponent<Tutorial>().activateContinueCanvas();
+                if (!sceneCamera.transform.GetComponent<Tutorial>().isStopped())
+                {
+                    sceneCamera.transform.GetComponent<Tutorial>().activateContinueCanvas();
+                }
             }
             else if (transform.position == moveToPoint.transform.position && end)
             {
