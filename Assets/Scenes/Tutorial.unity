@@ -556,8 +556,8 @@ MonoBehaviour:
     is by inputing a superpostion state. It can also be represented as a 180 degree
     rotation around the Z axis of the "Bloch Sphere". "Phase" is represented in the
     game as colour, and although you can be in a basis state i.e. 0 and still apply
-    the Z gate, you won't see a change in shape, but a change in colour. Press the
-    "RETURN/ENTER" key to see this in action.
+    the Z gate, you won't see a change in shape, but a change in colour.  Press "ENTER"
+    to see this in action.
 --- !u!222 &92074161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1133,7 +1133,7 @@ MonoBehaviour:
     m_LineSpacing: 1.5
   m_Text: The S gate is similar to the Z gate. However, It can be represented as
     a 90 degree rotation around the Z axis of the "Bloch Sphere" instead of a 180
-    degree rotation. Press the "RETURN/ENTER" key to see this in action.
+    degree rotation.  Press "ENTER" to see this in action.
 --- !u!222 &217246468
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2407,7 +2407,7 @@ MonoBehaviour:
     with single unitary gates. These gates don't just apply to the qubit states you've
     seen in the examples, they can be applied to any state and you may see different
     outcomes, however, the principles are the same. When you're ready to start the
-    game, press the "RETURN/ENTER" key to begin. Good luck!
+    game, press "ENTER" to begin. Good luck!
 --- !u!222 &579755289
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2593,8 +2593,8 @@ MonoBehaviour:
     m_LineSpacing: 1.5
   m_Text: The Y gate is similar to the X gate. Given a 1 it will output a 0 and vice
     versa, however, it will also change the "phase". It can also be represented as
-    a 180 degree rotation around the Y axis of the "Bloch Sphere". Press the "RETURN/ENTER"
-    key to see this in action.
+    a 180 degree rotation around the Y axis of the "Bloch Sphere".  Press "ENTER"
+    to see this in action.
 --- !u!222 &632608882
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3295,7 +3295,7 @@ MonoBehaviour:
     m_LineSpacing: 1.5
   m_Text: The T gate is similar to the S gate. However, It can be represented as
     a 45 degree rotation around the Z axis of the "Bloch Sphere" instead of a 90
-    degree rotation. Press the "RETURN/ENTER" key to see this in action.
+    degree rotation.  Press "ENTER" to see this in action.
 --- !u!222 &928678725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3821,8 +3821,8 @@ MonoBehaviour:
   m_Text: The H (Hadamard) gate is a very important gate in QC. It takes a basis
     state and puts it into an equal "superposition" or "mixture" of both states.
     Given a 0 it will output a combination of both 0 and 1. It can also be represented
-    on the "Bloch Sphere" as being in the middle of both north and south poles. Press
-    the "RETURN/ENTER" key to see this in action.
+    on the "Bloch Sphere" as being in the middle of both north and south poles. 
+    Press "ENTER" to see this in action.
 --- !u!222 &1196343484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4768,8 +4768,8 @@ MonoBehaviour:
     m_LineSpacing: 1.5
   m_Text: The X gate is similar to the logical NOT gate in computing. Given a 0 it
     will output a 1 and vice versa. It can also be represented as a 180 degree rotation
-    around the X axis of the "Bloch Sphere" (Located above the gate). Press the "RETURN/ENTER"
-    key to see this in action.
+    around the X axis of the "Bloch Sphere" (Located above the gate). Press "ENTER"
+    to see this in action.
 --- !u!222 &1807946233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5551,7 +5551,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Press the "RETURN/ENTER" key to continue.
+  m_Text: Press "ENTER" to continue.
 --- !u!222 &1943116269
 CanvasRenderer:
   m_ObjectHideFlags: 0

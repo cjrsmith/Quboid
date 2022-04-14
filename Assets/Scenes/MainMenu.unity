@@ -1634,7 +1634,8 @@ MonoBehaviour:
     shapes: an icosahedron (zero state), cube (one state) and a shape which is a
     combination of both, representing a "superposition" state which can be both zero
     and one at the same time. Begin the tutorial to get an understanding of what
-    the qubits look like, and how they interact with the gates.'
+    the qubits look like, and how they interact with the gates. Press the "Esc" key
+    at any time to skip the tutorial, or "Enter" to continue.'
 --- !u!222 &1229570281
 CanvasRenderer:
   m_ObjectHideFlags: 0
