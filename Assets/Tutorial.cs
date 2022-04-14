@@ -35,6 +35,7 @@ public class Tutorial : MonoBehaviour
     [SerializeField]
     private Canvas missionCanvas;
     private bool recordReturn = true;
+    private bool stopped = false;
     private Canvas[] canvasList = new Canvas[6];
     void Start()
     {
@@ -54,6 +55,12 @@ public class Tutorial : MonoBehaviour
             count++;
             recordReturn = false;
         }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            stopped = true;
+            deactivateContinueCanvas();
+            skip();
+        }
         moveCamera();
     }
     public void moveCamera()
@@ -65,7 +72,7 @@ public class Tutorial : MonoBehaviour
                 //Deactivate continuecanvas
                 deactivateContinueCanvas();
                 transform.position = Vector3.MoveTowards(transform.position, moveToPoint2.transform.position, step);
-                if (transform.position == moveToPoint2.transform.position)
+                if (transform.position == moveToPoint2.transform.position && !stopped)
                 {
                     endScene();
                     //Activate new canvas
@@ -76,7 +83,7 @@ public class Tutorial : MonoBehaviour
                 //Deactivate continuecanvas
                 deactivateContinueCanvas();
                 transform.position = Vector3.MoveTowards(transform.position, moveToPoint3.transform.position, step);
-                if (transform.position == moveToPoint3.transform.position)
+                if (transform.position == moveToPoint3.transform.position && !stopped)
                 {
                     endScene();
                     //Activate new canvas
@@ -87,7 +94,7 @@ public class Tutorial : MonoBehaviour
                 //Deactivate continuecanvas
                 deactivateContinueCanvas();
                 transform.position = Vector3.MoveTowards(transform.position, moveToPoint4.transform.position, step);
-                if (transform.position == moveToPoint4.transform.position)
+                if (transform.position == moveToPoint4.transform.position && !stopped)
                 {
                     endScene();
                     //Activate new canvas
@@ -98,7 +105,7 @@ public class Tutorial : MonoBehaviour
                 //Deactivate continuecanvas
                 deactivateContinueCanvas();
                 transform.position = Vector3.MoveTowards(transform.position, moveToPoint5.transform.position, step);
-                if (transform.position == moveToPoint5.transform.position)
+                if (transform.position == moveToPoint5.transform.position && !stopped)
                 {
                     endScene();
                     //Activate new canvas
@@ -109,7 +116,7 @@ public class Tutorial : MonoBehaviour
                 //Deactivate continuecanvas
                 deactivateContinueCanvas();
                 transform.position = Vector3.MoveTowards(transform.position, moveToPoint6.transform.position, step);
-                if (transform.position == moveToPoint6.transform.position)
+                if (transform.position == moveToPoint6.transform.position && !stopped)
                 {
                     endScene();
                     //Activate new canvas
@@ -159,5 +166,13 @@ public class Tutorial : MonoBehaviour
     public void mainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+    public void skip()
+    {
+        missionCanvas.gameObject.GetComponentInChildren<Canvas>().enabled = true;
+    }
+    public bool isStopped()
+    {
+        return stopped;
     }
 }
